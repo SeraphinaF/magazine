@@ -1,0 +1,129 @@
+@media screen and (max-width: 655px) {
+  #spellDetailsGoHere {
+    position: sticky !important;
+    justify-content: space-between !important;
+    z-index: 1000 !important;
+    background: black !important;
+    float: none !important;
+  }
+}
+
+#videocardInsert {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.videocardInfo {
+  width: 350px;
+
+  background-color: white;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 899;
+  font-size: 100%;
+  text-align: center;
+  display: inline-block;
+
+
+
+
+}
+
+
+
+.videocardInfo .videocardName {
+  height: 100px;
+  text-align: center;
+
+
+
+}
+
+.favoriteVC {
+  background: url('favorite.png')  no-repeat 30px 0px;
+
+
+
+
+
+
+
+}
+
+.videocardInfo .videocardName h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  text-transform: uppercase !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.videocardInfo .buttonClass{
+  width: 150px;
+  color: #78B821;
+  margin: 10px;
+
+
+  padding: 15px;
+}
+
+
+.videocardInfo .buttonClass:hover {
+  color: white;
+}
+
+#videocardDetailInsert .textToRight {
+  float: right;
+  margin-right: 10px;
+}
+
+#videocardDetailInsert {
+  position: sticky;
+  top: 0;
+  height: 500px;
+  width: 300px;
+  background-color: white;
+  margin: 20px auto;
+  color: black;
+  z-index: 999;
+
+
+  float: right;
+  display: none;
+
+
+}
+
+#videocardDetailInsert .videocardName h2, #videocardDetailInsert h2 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  text-transform: uppercase !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#videocardDetailInsert .videocardName {
+  height: 100px;
+  text-align: center;
+
+
+}
+
+#videocardDetailInsert .buttonClass {
+  width: 150px;
+  color: #78B821;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+}
+
+
+#getVideocardDetails .buttonClass:hover {
+  color: grey;
+}
